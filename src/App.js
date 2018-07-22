@@ -18,7 +18,6 @@ class App extends Component {
 
   componentDidMount() {
     // setTimeout(() => {
-      debugger
       this.initCharts();
     // }, 0);
   }
@@ -57,7 +56,7 @@ class App extends Component {
               <Menu.Item key="3">nav 3</Menu.Item>
             </Menu>
           </Header>
-          <Layout>
+          <Layout className="ant-layout-has-sider">
             <Sider width={200} style={{ background: "#fff" }}>
               <Menu
                 mode="inline"
